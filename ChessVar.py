@@ -8,6 +8,7 @@ player's king to reach the first row of the opposing player's side of the board.
 Classes:
 - Piece: Base class for all chess pieces (King, Rook, Bishop, Knight).
 - King: Class for the King piece, with specific movement logic and check detection.
+- Queen: Class for the Queen piece, with movement logic for horizontal, vertical, and diagonal paths.
 - Rook: Class for the Rook piece, with movement logic for horizontal and vertical paths.
 - Bishop: Class for the Bishop piece, with movement logic for diagonal paths.
 - Knight: Class for the Knight piece, with movement logic for an "L" shape.
