@@ -26,7 +26,7 @@ The `Piece` class is a base class for all chess pieces. It includes:
 - **Position**: The position of the piece on the board.
 - **Movement**: Each piece class (like `King`, `Knight`, etc.) overrides the `moves` method to specify its valid movements.
 
-### 5. `King`, `Knight`, `Rook`, `Bishop`
+### 5. `King`, `Queen`, `Knight`, `Rook`, `Bishop`
 These classes represent specific chess pieces, inheriting from the `Piece` class. Each piece has:
 - **Name**: A method to return the name for display (e.g., `wK` for White King).
 - **Valid Moves**: A `moves` method that returns a list of valid moves based on the piece's movement rules.
